@@ -1,0 +1,222 @@
+body,
+form,
+h1,
+h2,
+input,
+li,
+ol,
+p,
+tr,
+textarea,
+th,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+	vertical-align: top;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+textarea {
+	resize: none;
+	overflow: auto;
+}
+
+.shadow{
+	-webkit-box-shadow: 5px 5px 5px;
+	/*-moz-box-shadow: inherit;*/
+	box-shadow: 5px 5px 5px;
+}
+
+body{
+	background: #E0FFFF;
+}
+
+#header{
+	height: 80px;
+	width: 1360px;
+	background: #333333;
+	top:0;
+}
+
+#header img{ 
+	height: 80px;
+	width: 100px;
+	position: absolute;
+	left: 40px;
+}
+
+#header nav{
+	position: absolute;
+	right: 0;
+}
+
+#header nav ul{
+	color: #ccc;
+}
+
+#header nav ul li{
+	float: left;
+	line-height: 80px;
+	width: 100px;
+}
+
+#header nav ul li a{
+	color: white;
+}
+
+section{
+	width: 1280px;
+	margin: 0 auto;
+	margin-top: 60px;
+	padding: 20px;
+}
+
+article{
+	padding: 20px;
+	background: white;
+	width: 1200px;
+	margin: 40px auto;
+	margin-top: 20px;
+}
+
+aside{
+	padding: 20px;
+	background: white;
+	width: 1200px;
+	margin: 40px;
+	margin-top: 0px;
+}
+
+article h1{
+	padding-top: 35px;
+}
+
+article h2{
+	font-size: 18px;
+	padding:15px 0;
+}
+
+article .author,.time{
+	color: #989493;
+	padding:15px 0;
+	font-size: 12px;
+}
+
+article .img{
+	height: 360px;
+	width: 600px;
+	padding-top: 20px;
+	padding-left: 300px;
+}
+
+#article2 ol{
+	margin-top: 10px;
+}
+
+#article2 li{
+	margin:10px 48%;
+	font-size: 18px;
+}
+
+div.pic{
+	border: 1px solid #CCCCCC;
+	padding-top: 20px;
+	height: 240px;
+	width: 400px;
+	margin: 10px 400px;
+	text-align: center;
+}
+
+.pic p{
+	height: 20px;
+	line-height: 30px;
+	font-size: 20px;
+}
+
+.pic img{
+	height: 180px;
+	width: 300px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#article4 ol{
+	margin-top: 10px;
+}
+
+#article4 li{
+	margin:10px 48%;
+	font-size: 18px;
+}
+
+table{
+	width: 1200px;
+	height: 200px;
+	text-align: center;
+}
+
+th{
+	background: whiteFFF;
+	color: #333333;
+}
+
+aside h1{
+	padding-top: 35px;
+}
+
+#input_all{
+	width: 100%;
+	margin-left: 20%;
+}
+
+#input_all #input{
+	width: 100%;
+	margin-top: 10px;
+}
+
+aside label{
+	text-align: right;
+}
+
+aside .submit{
+	width: 60%;
+	margin: 10px 20% auto;
+	height: 40px;
+	background: #8600FF;
+	color: white;
+	text-align: center;
+}
+
+footer{
+	height: 80px;
+	width: 1360px;
+	background: #333333;
+	bottom:0;
+	text-align: center;
+}
+
+footer label{
+	height: auto;
+	color: white;
+	line-height: 80px;
+}
+
+
+
+
+

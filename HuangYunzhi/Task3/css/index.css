@@ -1,0 +1,81 @@
+* {
+	margin: 0px;
+	padding: 20px;
+}
+#main {
+	max-height: 460px;
+	background: #eee;
+	border: solid 1px #999;
+}
+#main::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+#left {
+	position: relative;
+	float: left;
+	padding: 0px;
+	width: 200px;
+	background: #fff;
+	border: solid 1px #999;
+}
+#left a {
+	display: block;
+	width: 80px;
+	height: 80px;
+	padding: 0px;
+	margin: 20px;
+	background: url(../images/logo.png);
+	background-size: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	border: solid 1px #999;
+}
+#left #name {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+#mid {
+	margin-left: 220px;
+	margin-right: 140px;
+	line-height: 30px;
+	background: #fff;
+	border: solid 1px #999;
+}
+#mid h2,
+#mid p {
+	padding: 0px;
+}
+#right {
+	float: right;
+	width: 120px;
+	height: 420px;
+	padding: 0px;
+	background: #fff;
+	border: solid 1px #999;
+}
+#right ul {
+	padding: 0px;
+}
+#right li {
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+	padding: 0px;
+	list-style: none;
+	border: solid 1px #999;
+}
+#right li:nth-child(2n){
+	background: url(../images/name.png);
+	background-size: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+#right li:nth-child(2n+1){
+	background: url(../images/name_1.png);
+	background-size: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}

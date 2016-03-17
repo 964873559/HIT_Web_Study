@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>test 2</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<header id="header">
+			<img src="computer.net.png" title="百度" alt="百度" />
+			<nav>
+				<ul>
+					<li><a href="#article1" title="文章一">文章一</a></li>
+					<li><a href="#article2" title="文章二">文章二</a></li>
+					<li><a href="#article3" title="图片">图片</a></li>
+					<li><a href="#article4" title="文章三">文章三</a></li>
+					<li><a href="#article5" title="侧栏">侧栏</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section>
+			<article id="article1" class="shadow">
+				<h1>文章一级标题</h1>
+				<h2>文章二级标题</h2>
+				<p><span class="author">文章作者</span>&nbsp;&nbsp;
+					<span class="time">文章发表时间</span>
+				</p>
+				<p>这是一个很长的段落&nbsp;&nbsp;换行了
+					<br /> 这是一个很长的段落，换行了
+					<br />
+					<a href="http://ife.baidu.com">这是一个链接链接到ife.baidu.com</a>
+					<br />
+					<strong>粗体字</strong>
+					<br />
+					<img src="psb.png" class="img" title="百度" />
+					<br /> 这是一个很长的段落，换行了
+					<br />
+					<a href="http://ife.baidu.com" target="_blank">这是一个链接链接到新窗口打开ife.baidu.com</a>
+					<br />
+				</p>
+			</article>
+			<article id="article2" class="shadow">
+				<h1>另一篇文章一级标题</h1>
+				<h2>另一篇文章二级标题</h2>
+				<p><span class="author">文章作者</span>&nbsp;&nbsp;
+					<time>文章发表时间</time>
+				</p>
+				<p>
+					这是一个很长的段落&nbsp;&nbsp;换行了
+					<br /> 这是一个很长的段落，换行了
+					<br />
+					<a href="http://ife.baidu.com">这是一个链接链接到ife.baidu.com</a>
+					<br />
+					<strong>粗体字</strong>
+					<br />
+					<img src="psb.png" class="img" title="百度" />
+					<br />
+					<ul>
+						<li><a title="列表1">列表1</a></li>
+						<li><a title="列表2">列表2</a></li>
+						<li><a title="列表3">列表3</a></li>
+					</ul>
+				</p>
+			</article>
+			<article id="article3" class="shadow">
+				<h2>图片</h2>
+				<div class="pic">
+					<p>好看的图片</p>
+					<img src="psb.png" title="百度" alt="" />
+				</div>
+				<div class="pic">
+					<p>好看的图片</p>
+					<img src="psb.png" title="百度" alt="" />
+				</div>
+				<div class="pic">
+					<p>好看的图片</p>
+					<img src="psb.png" title="百度" alt="" />
+				</div>
+				<div class="pic">
+					<p>好看的图片</p>
+					<img src="psb.png" title="百度" alt="" />
+				</div>
+				<div class="pic">
+					<p>好看的图片</p>
+					<img src="psb.png" title="百度" alt="" />
+				</div>
+				<div class="pic">
+					<p>好看的图片</p>
+					<img src="psb.png" title="百度" alt="" />
+				</div>
+			</article>
+			<article id="article4" class="shadow">
+				<h1>最后一篇文章一级标题</h1>
+				<h2>文章二级标题</h2>
+				<p><span class="author">文章作者</span>&nbsp;&nbsp;
+					<time>文章发表时间</time>
+				</p>
+				<ol>
+					<li><a title="列表1">列表1</a></li>
+					<li><a title="列表2">列表2</a></li>
+					<li><a title="列表3">列表3</a></li>
+				</ol>
+				<p>下面是一个表格，border="1"好让你看出来</p>
+				<table border="1">
+					<tbody>
+						<tr>
+							<th>表头1</th>
+							<th>表头2</th>
+							<th>表头3</th>
+						</tr>
+						<tr>
+							<th>表内容单元格</th>
+							<th>表内容单元格</th>
+							<th><a href="#" title="操作">操作</a></th>
+						</tr>
+						<tr>
+							<th>表内容单元格</th>
+							<th>表内容单元格</th>
+							<th><a href="#" title="操作">操作</a></th>
+						</tr>
+						<tr>
+							<th>表内容单元格</th>
+							<th>表内容单元格</th>
+							<th><a href="#" title="操作">操作</a></th>
+						</tr>
+						<tr>
+							<th>表内容单元格</th>
+							<th>表内容单元格</th>
+							<th><a href="#" title="操作">操作</a></th>
+						</tr>
+						<tr>
+							<th>总计</th>
+							<th colspan="2">1000</th>
+						</tr>
+					</tbody>
+				</table>
+			</article>
+		</section>
+		<aside id="article5" class="shadow">
+			<h1>这是一个侧栏，这是侧栏的标题</h1>
+			<h2>侧栏注册窗口标题</h2>
+			<form method="post" action="save.php">
+				<div id="input_all">
+					<div id="input">
+						<label for="email">请输入邮箱地址：</label>
+						<input type="text" name="email" id="email" />
+						<label>（邮箱地址请按照要求格式输入）</label>
+					</div>
+					<div id="input">
+						<label for="password">请输入密码：</label>
+						<input type="password" name="password" id="password" />
+						<label for="password_again">请重复输入密码：</label>
+						<input type="password" name="password_again" id="password_again" />
+						<label>（密码请为6-16位英文数字）</label>
+					</div>
+					<div id="input">
+						<label>性别：</label>
+						<label for="man">男</label>
+						<input type="radio" value="1" name="sex" id="man" checked="checked" />
+						<label for="woman">女</label>
+						<input type="radio" value="2" name="sex" id="woman" />
+					</div>
+					<div id="input">
+						<label>城市：</label>
+						<select>
+							<option value="beijing" selected="selected">北京</option>
+							<option value="shanghai">上海</option>
+							<option value="guangzhou">广州</option>
+							<option value="shenzhen">深圳</option>
+						</select>
+					</div>
+					<div id="input">
+						<label>爱好:&nbsp;&nbsp;</label>
+						<input type="checkbox" name="yundong" value="yundong" />&nbsp;运动&nbsp;
+						<input type="checkbox" name="yishu" value="yishu" />&nbsp;艺术&nbsp;
+						<input type="checkbox" name="kexue" value="kexue" />&nbsp;科学&nbsp;
+					</div>
+					<div id="input">
+						<label>个人描述：</label>
+						<textarea cols="20" rows="5">在这里输入内容...</textarea>
+					</div>
+				</div>
+				<input class="submit" type="submit" value="提交" name="submit" />
+			</form>
+		</aside>
+		<footer>
+			<label>版权所有©</label>
+		</footer>
+	</body>
+
+</html>

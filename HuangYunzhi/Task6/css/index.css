@@ -1,0 +1,65 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+html {
+	background: #5d5d5d;
+}
+body {
+	width: 980px;
+	height: 1386px;
+	margin: 50px auto;
+	padding: 0 44px;
+	background: #fff;
+}
+header {
+	position: relative;
+	width: 100%;
+	height: 61px;
+	font-family: "黑体";
+	font-size: 12px;
+	border-bottom: solid 2px #938e8c;
+}
+header a {
+	display: block;
+	width: 110px;
+	height: 61px;
+	text-decoration: none;
+	line-height: 100px;
+	text-align: center;
+	color: #fff;
+	background: #d55d5c;
+}
+header span {
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	color: #d45d5c;
+}
+#left_top_photo {
+	position: relative;
+	width: 641px;
+	height: 301px;
+	margin-top: 40px;
+}
+#left_top_photo::before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 191px;
+	height: 301px;
+	opacity: 0.5;
+	background: green;
+}
+#left_top_photo::after{
+	content: "";
+	display: block;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 191px;
+	height: 301px;
+	opacity: 0.5;
+	background: red;
+}
